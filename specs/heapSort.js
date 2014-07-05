@@ -1,13 +1,13 @@
 /* global quickSort, describe, it, expect, should */
 
-describe('heapify', function () {
+describe('heap sort', function () {
   'use strict';
 
   it('exists', function () {
-    expect(heapify).to.be.a('function');
+    expect(heapSort).to.be.a('function');
   });
 
-  it('correctly gets parents', function() {
+  it('has a function that correctly gets parents', function() {
     expect(parent(3)).to.equal(1);
     expect(parent(1)).to.equal(0);
     expect(parent(4)).to.equal(1);

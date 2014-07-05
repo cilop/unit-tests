@@ -1,6 +1,6 @@
 /* global insertionSort, describe, it, expect, should */
 
-describe('insertion sort', function () {
+describe('merge sort', function () {
   'use strict';
 
   it('exists', function () {
