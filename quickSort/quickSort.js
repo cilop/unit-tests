@@ -41,9 +41,9 @@ var quickSort = function(array) {
     reorder(array, i);
   }
 
-  console.log(array);
+  // console.log(array);
   return array;
 };
 
 
-quickSort([5,4,3,2,1]);
+// quickSort([5,4,3,2,1]);
